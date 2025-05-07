@@ -1,0 +1,62 @@
+VCS - is a software that tracks and manages
+changes to files over time
+
+other vcs - Subversion, CVS, Mercurial
+
+GIT - Global Information Tracker
+
+git --version
+git config --global user.name "name"
+git config --global user.email "example@gmail.com"
+
+git config --list
+
+git repo - workplace which tracks and manages files within a folder.
+
+git add -A/git add . (adds all files in the staging area)
+
+git config --global core.editor "core --wait"
+notepad
+git config --global core.editor "code --wait"
+
+git log - view first commits
+
+git log --oneline
+
+git checkout 
+
+git commit -m "message" .
+
+git commit --amend (editing previous commit message)
+
+HEAD - points to the current branch
+
+Branch - single source of truth
+git branch - viewing branches
+
+git branch -d branch_name - delete branch_name
+git branch -D if branch contains changes
+git branch name - creating a branch
+git switch branchname - switching branches
+
+Merging branches
+
+git merge branch_name
+
+git merge
+
+git stash save
+
+git stash pop - bringing changes back
+
+git stash list - to show all your stashess
+
+https://codeme254.github.io/git and github
+
+GitHub - hosting platform for git repositories
+- GitLab
+- BitBucket
+
+git remote
+git remote -v
+git remote rename oldname newname
