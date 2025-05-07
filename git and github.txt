@@ -81,3 +81,9 @@ git tag - making tags
 
 git tag tagname
 git push --tags
+
+git tag -a tagname -- creating annotated tags
+
+git tag -d tagname - deleting a tag
+
+gitignore - houses files which do need to be tracked.
