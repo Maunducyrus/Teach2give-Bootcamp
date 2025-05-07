@@ -60,3 +60,24 @@ GitHub - hosting platform for git repositories
 git remote
 git remote -v
 git remote rename oldname newname
+
+git branch -m main (renaming a branch)
+
+git push -u REMOTE_NAME BRANCH_NAME  pushing for the first time in a branch)
+
+git branch -r - shows all the branches
+
+git fetch REMOTE
+
+git fetch  - takes remote changes to local repository
+
+git checkout origin/chapter2 - remote tracking branch
+
+git pull - used to retrieve changes fro the remote repo
+
+Git tags - to version our software or projects
+
+git tag - making tags
+
+git tag tagname
+git push --tags
