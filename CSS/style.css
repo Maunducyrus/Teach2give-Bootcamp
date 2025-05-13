@@ -2,3 +2,13 @@ h3 {
     font-size: 45px;
     color: aqua;
 }
+
+/* class selectors */
+.quiz {
+    color: red;
+}
+
+/* id selector */
+#more {
+    color: gray;
+}
