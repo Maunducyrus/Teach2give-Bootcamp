@@ -1,0 +1,17 @@
+h1 {
+    border: 2px solid red;
+    /*margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px; */
+    /* margin: 50px 100px 50px 100px; */
+    /* margin-block-start: auto;
+    margin-block-end: auto; */
+
+    padding: 20px 30px 20px 30px;
+    padding: val1 val12;
+    padding: 30px;
+}
+h3{
+    border: 2px solid green;
+}
