@@ -31,6 +31,10 @@ a {
 
 
     /* css transitions */
-    transition-delay: 3sec;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+}
 
+.element:hover{
+    transform: scale(2.3);
 }
