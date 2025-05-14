@@ -33,7 +33,12 @@ a {
     /* css transitions */
     transition-delay: 0.5s;
     transition-duration: 0.5s;
-    transition-property: background-color;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+
+
 }
 
 .element:hover{
