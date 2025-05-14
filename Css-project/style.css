@@ -31,5 +31,6 @@ a {
 
 
     /* css transitions */
+    transition-delay: 3sec;
 
 }
