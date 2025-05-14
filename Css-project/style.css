@@ -33,8 +33,10 @@ a {
     /* css transitions */
     transition-delay: 0.5s;
     transition-duration: 0.5s;
+    transition-property: background-color;
 }
 
 .element:hover{
     transform: scale(2.3);
+    background-color: green;
 }
