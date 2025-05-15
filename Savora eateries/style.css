@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* 1rem = 10px */
+/* 100% = 16px */
+html {
+  font-size: 62.5%;
+}
+:root {
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Dancing Script", cursive;
+  --color-primary: #f53855;
+  --color-primary-light: #f53855;
+  --color-white: #fff;
+  --color-white-light: #f8f8f8;
+  --color-white-lighter: #fafafa;
+  --color-grey: #737373;
+  --color-grey-dark: #4f4f4f;
+  --color-black-main: #212529;
+  --color-black-light: #343a40;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Dancing Script", cursive;
+}
