@@ -1,0 +1,11 @@
+Primary color #cf1d16;
+Primary light color #d33e34;
+Color white #fff;
+Color white light #f8f9fa;
+Color white lighter #f7f7f7;
+Color grey #d8dbdd;
+Color grey dark #797877;
+Color black main #000000;
+Color black light #262626;
+
+shadow 0 4px 12px rgba(0, 0, 0, 0.1)
