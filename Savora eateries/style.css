@@ -45,10 +45,57 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
 }
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.header-nav-list {
+  text-decoration: none;
+  display: flex;
+  gap: 4rem;
+}
+.header-nav-list-item a {
+  text-decoration: none;
+  color: var(--color-black-main);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.header-cta-btn {
+  background-color: var(--color-primary-light);
+  text-decoration: none;
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.header-log-link-wrapper {
+  text-decoration: none;
+  color: var(--color-black-main);
+  text-transform: uppercase;
+}
+.logo {
+  font-size: 2rem;
+}
+
+
 
 
 @media screen and (max-width: 768px) {
   .header-contact {
     display: none;
   }
+  .header-nav-list{
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .header-nav{
+    position: absolute;
+    top: 100%;
+  }
+  .header-navigation {
+    align-items: flex-start;
+  }
+
 }
