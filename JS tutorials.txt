@@ -97,3 +97,23 @@ console.log(Number(55))
 num1 = Number(num1)
 num1 = parseInt(num1)
 num1 = Boolean(num1)
+
+Function - block of code that performs a specific task 
+
+function functionName() {
+
+}
+calling the function
+
+Parameters - variable declared in a function
+argument - value passed to a function 
+
+types of functions in JS
+1. function declaration
+2. function expression/anonymous function
+3. Arrow functions
+eg const multiply = (num1, num2) => {
+return num1 * num2;
+}
+
+Callback function - refer to the function passed 
