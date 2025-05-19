@@ -1,0 +1,36 @@
+JS tutorials
+
+including js in html
+1. use scripts -<script></script>
+2. external js - <srcipt src=""></script>
+
+to improve JS performance
+defer keyword - 
+node index.js running via node
+
+variables - container that holds a piece of info
+const - value that doesn't change
+value - actual piece of data stored inside a varialbe
+
+declaring valiable
+var- older keyword for Js
+let- keyword for modern JS
+const-constant
+
+declaring a variable
+var age;
+initializing a variable
+age = 20;
+
+name variable
+1. you start with dollar, sign, underscore
+2. Variable names are case sensitive
+
+snake case convention
+let = seconds_tomorrow_morning
+
+camel case convention
+let = seconds_Tomorrow_Morning
+
+pascal case convention
+let = SecondsTomorrowMorning
