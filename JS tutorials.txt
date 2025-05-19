@@ -34,3 +34,66 @@ let = seconds_Tomorrow_Morning
 
 pascal case convention
 let = SecondsTomorrowMorning
+
+JS datatypes
+1. string - uses single or double quotes
+2. Number - numbers
+3. Boolean - true or false
+4. Null = intentional absence of a value
+5. Undefined - returns value declared and not initialized
+6. Bigint
+7. Symbol
+
+typeof operator - to check the datatype of a variable
+
+Operators - performs operations
+
+1. Arithmetic
+2. Logical - for boolean logic 
+3. Bitwise - perform operations at the binary level
+
+post-increment a++ returns the value first and
+then increments
+pre-increment ++a
+
+= assign a value to a variable
++= used to a value a variable
+-= minues a value from a variable and updates it immediately
+*=
+/=
+
+comparison operators
+== (Equality operator) - ignores datatypes
+=== (Strict equality operator) - strict on datatypes.
+
+!= Not equal to
+!== Strict inequality operator
+
+&& everything has to be true for it to return true
+|| returns true if one operator is true
+
+! negatis the result
+
+let senderfirstName = "Cyrus"
+let senderLastName = "Maundu"
+let currentBalance = "5_500"
+let receivedAmount = "2_500"
+
+console.log("TJDIIWOSF19. Confirmed! You have received Ksh. " + receivedAmount + "from " + senderFirstName + "New m-pesa balance is Ksh."
+
+String Template Literals
+console.log(``)
+
+Type Coercion and Type Conversion
+- changing datatype of a value to another
+
+Type Coercion - happens automatically 
+eg ("5" + 5)
+
+Type Conversion - when you convert the datatype of a particular value
+eg num1 = String(num1)
+console.log(Number(55))
+
+num1 = Number(num1)
+num1 = parseInt(num1)
+num1 = Boolean(num1)
