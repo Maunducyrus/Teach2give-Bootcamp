@@ -136,3 +136,15 @@ console.log('You score an A')
 - do while loop - executes a loop atleast once even is it's wrong
 
 infinite loop - a loop that never stops
+
+Scope - determines where variable are accessible
+
+types of scope
+1. Global Scope - variable declared out side any function or block
+
+2. Function scope(local scope) - variable declared inside a function is only accessible inside that function.
+
+3. Block scope - uses let and const
+4. Lexical scope - means a function can access variables from it's parent scope.
+
+var - is not a block scope keyword
