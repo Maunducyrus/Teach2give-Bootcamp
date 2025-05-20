@@ -53,4 +53,22 @@ console.log(qualify);
 let qualify1 = qualifyToDrive("June", 12);
 console.log(qualify1);
 
+// Challenge 6: Finding Largest Number
+function findLargest(a, b, c) {
+    if (a >= b && a >= c) {
+        return a;
+    } else if (b >= a && b >= c) {
+        return b;
+    } else {
+        return c;
+    }
+}
+let largest1 = findLargest(5, 9, 3); // 9
+console.log(largest1);
+let largest2 = findLargest(10, 10, 10); // 10
+console.log(largest2);
+let largest3 = findLargest(-1, -5, -3); // -1
+console.log(largest3);
+
+
 
