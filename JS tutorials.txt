@@ -132,5 +132,7 @@ console.log('You score an A')
 
 2. Loops
 - for loop - used when the number of excution for a block of code is known
-- while loop
-- do while loop
+- while loop - executes a code until a certain condition is met
+- do while loop - executes a loop atleast once even is it's wrong
+
+infinite loop - a loop that never stops
