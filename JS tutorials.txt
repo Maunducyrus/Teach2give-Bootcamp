@@ -117,3 +117,20 @@ return num1 * num2;
 }
 
 Callback function - refer to the function passed 
+
+Control Flow
+
+1. Conditional 
+- if statement
+- if else statement if---else
+- if else ladder - else---if
+const score = 95
+if (score >= 90) {
+console.log('You score an A')
+} 
+- switch statement
+
+2. Loops
+- for loop - used when the number of excution for a block of code is known
+- while loop
+- do while loop
