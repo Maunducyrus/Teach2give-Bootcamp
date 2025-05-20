@@ -70,5 +70,28 @@ console.log(largest2);
 let largest3 = findLargest(-1, -5, -3); // -1
 console.log(largest3);
 
+// Challenge 7: BMI Calculator
+function calculateBMI(weight, height) {
+    let bmi = weight / (height * height);
+    let result;
 
+    if (bmi < 18.5) {
+        result = "Underweight";
+    }
+    else if (bmi >= 18.5 && bmi <= 24.9) {
+        result = "Normal weight";
+    }
+    else if (bmi >= 25 && bmi <= 29.9) {
+        result = "Overweight";
+    }
+    else {
+        result = "Obese";
+    }
+    return `Your BMI is ${bmi} - ${result}`;
+}
+
+let bmi1 = calculateBMI(68, 1.75); //Your BMI is 22.2 - Normal weight
+console.log(bmi1);
+let bmi2 = calculateBMI(85, 1.8); //Your BMI is 26.2 - Overweight
+console.log(bmi2);
 
