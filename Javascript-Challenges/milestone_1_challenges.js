@@ -130,4 +130,21 @@ console.log(fizzBuzzCheck(3)); // Fizz
 console.log(fizzBuzzCheck(10)); // Buzz
 console.log(fizzBuzzCheck(15)); // FizzBuzz
 console.log(fizzBuzzCheck(7));  // "7"
+
+// Challenge 10: Perimeter 2
+function calculate_perimeter(shape, value) {
+    if (shape === 's') {
+        return 4 * value;
+    }
+    else if (shape === 'c') {
+        return 6.28 * value;
+    }
+    else
+    {
+        return 'Try again';
+    }
+}
+console.log(calculate_perimeter("s", 7)) //28
+console.log(calculate_perimeter("c", 4)) //25.12
+
  
