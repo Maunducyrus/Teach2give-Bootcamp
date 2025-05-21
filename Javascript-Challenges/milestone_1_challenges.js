@@ -187,3 +187,30 @@ function factorial(n) {
 console.log(factorial(0)) //1
 console.log(factorial(4)) // 24  (1 * 2 * 3 * 4)
 console.log(factorial(6)) // 720 (1 * 2 * 3 * 4 * 5 * 6)
+
+// Challenge 14: Multiple Sum
+function sumMultiples(n, divisor) {
+    let sum = 0;
+    for (let l = divisor; l <= n; l++) {
+        if (l % divisor === 0) {
+            sum += l;
+        }
+    }
+    return sum;
+};
+console.log(sumMultiples(10, 2)) // 30  (2 + 4 + 6 + 8 + 10)
+console.log(sumMultiples(15, 3)) // 45  (3 + 6 + 9 + 12 + 15)
+console.log(sumMultiples(7, 5)) // 5
+
+// Challenge 15: Sum of Digits
+function sumDigits(num) {
+    let sum = 0;
+    while (num > 0) {
+        sum += num % 10;
+        num = (num - (num % 10)) / 10;
+    }
+    return sum;
+}
+console.log(sumDigits(123)) // 6   (1 + 2 + 3)
+console.log(sumDigits(4567));  // 22  (4 + 5 + 6 + 7)
+console.log(sumDigits(0));     // 0
