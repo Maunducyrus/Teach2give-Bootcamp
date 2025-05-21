@@ -112,3 +112,22 @@ function greetUser(name, hour) {
     }
 
     console.log(greetUser('Alice', 19))
+
+// Challenge 9: FizzBuzz
+function fizzBuzzCheck(number) {
+    if (number % 15 === 0) {
+        return "FizzBuzz";
+    }
+    if (number % 3 === 0) {
+        return "Fizz";
+    }
+    if (number % 5 === 0) {
+        return "Buzz";
+    }
+        return number.toString(); 
+}
+console.log(fizzBuzzCheck(3)); // Fizz
+console.log(fizzBuzzCheck(10)); // Buzz
+console.log(fizzBuzzCheck(15)); // FizzBuzz
+console.log(fizzBuzzCheck(7));  // "7"
+ 
