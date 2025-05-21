@@ -148,3 +148,21 @@ types of scope
 4. Lexical scope - means a function can access variables from it's parent scope.
 
 var - is not a block scope keyword
+
+Basic Data Structures
+- Arrays - collection of elements stored at contiguous memory locations
+const ArrayName = [item1, item2, item3]
+console.log(ArrayName[0])
+
+- Objects - stores values as a collection of key value pairs. the key must be a string and value can be of any type.
+creating objects-
+- object literal
+- using new Object()
+- Using a constructor function
+
+- Sets
+- Maps
+
+method - function inside a object.
+
+Sets - represent collection of unique values
