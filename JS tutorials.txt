@@ -166,3 +166,10 @@ creating objects-
 method - function inside a object.
 
 Sets - represent collection of unique values
+ - add
+ - delete
+ - has
+ - clear
+ 
+ Maps - allows storage of key value pairs
+ the key can be of any type.
