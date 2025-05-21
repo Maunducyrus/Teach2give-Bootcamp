@@ -147,4 +147,14 @@ function calculate_perimeter(shape, value) {
 console.log(calculate_perimeter("s", 7)) //28
 console.log(calculate_perimeter("c", 4)) //25.12
 
- 
+// Challenge 11: Sum of Even Numbers
+function sumEvenNumbers(n) {
+    let sum = 0;
+    for (let i = 2; i <= n; i += 2) {
+        sum += i;
+    }
+    return sum;
+}
+ console.log(sumEvenNumbers(6)); // 12  (2 + 4 + 6)
+ console.log(sumEvenNumbers(10)); // 30  (2 + 4 + 6 + 8 + 10)
+ console.log(sumEvenNumbers(5)); // 6   (2 + 4)
