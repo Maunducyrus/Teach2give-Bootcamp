@@ -173,3 +173,11 @@ Sets - represent collection of unique values
  
  Maps - allows storage of key value pairs
  the key can be of any type.
+ 
+ Document Object Model.
+ 
+ Changing DOM Elements
+ - innerHTML - use to inject some HTML elements
+ - innerText - 
+ - element.attribute - value
+ 
