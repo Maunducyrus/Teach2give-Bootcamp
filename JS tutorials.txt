@@ -181,3 +181,11 @@ Sets - represent collection of unique values
  - innerText - 
  - element.attribute - value
  
+ DOM Events
+ - action or occurrence thta happens in the browser which user can respond.
+ - onclick event
+ - onmouseover event
+ - onkeydown
+ - onkeyup
+ - onloaad
+ - onfocus
