@@ -149,3 +149,16 @@ function  average(numbers) {
   }
   console.log(reverseLinearSearch([5, 3, 7, 1, 4, 7], 7)) // returns: 5
   console.log(reverseLinearSearch([5, 3, 7, 1, 4], 10)) // returns: []
+
+// Challenge 13: Linear Search All Indices
+function linearSearchAll(arr, value) {
+  let indices = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) {
+      indices.push(i);
+    }
+  }
+  return indices;
+}
+console.log(linearSearchAll([5, 3, 7, 1, 4, 7], 7))  // returns: [2, 5]
+console.log(linearSearchAll([5, 3, 7, 1, 4], 10))  // returns: []
