@@ -172,3 +172,15 @@ function countOccurrences(arr) {
   return count;
   }
   console.log(countOccurrences(["apple", "banana", "apple", "orange", "banana", "apple"])) // returns: { apple: 3, banana: 2, orange: 1 }
+
+  // Challenge 15: Remove Duplicates
+  function removeDuplicates(arr) {
+    let unique = [];
+    for (const item of arr) {
+      if (!unique.includes(item)) {
+        unique.push(item);
+      }
+    }
+    return unique;
+  }
+  console.log(removeDuplicates([1, 2, 3, 2, 4, 1, 5])) // returns: [1, 2, 3, 4, 5]
