@@ -125,3 +125,15 @@ function  average(numbers) {
   }
   console.log(average([2, 4, 6, 8]))
   console.log(average([]))
+
+  // Challenge 11: Linear Search
+  function linearSearch(arr, target) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] === target) {
+        return i;
+      }
+    }
+    return -1;
+  }
+  console.log(linearSearch([5, 3, 7, 1, 4], 7)) // returns: 2
+  console.log(linearSearch([5, 3, 7, 1, 4], 10)) // returns: -1 
