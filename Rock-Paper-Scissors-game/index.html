@@ -17,8 +17,8 @@
       <div class="header-content">
         <p class="copyright">&copy; 2024 <a href="#">Cyrus Maundu</a></p>
         <div class="score-bar">
-          <span>Computer <span class="score-value">0</span></span>
-          <span>0 <span class="score-value">Player</span></span>
+          <span>Computer <span class="score-value" id="computer-score">0</span></span>
+          <span>Player<span class="score-value" id="player-score">0</span></span>
         </div>
       </div>  
      
@@ -26,12 +26,12 @@
       <div class="show-choice">
         <div class="choice">
           <h3>Computer</h3>
-          <div class="choosen">✊</div>
+          <div class="choosen" id="computer-display">✊</div>
         </div>
-        <div class="status">CURRENTLY DRAW</div>
+        <div class="status" id="status-display">CURRENTLY DRAW</div>
         <div class="choice">
           <h3>Player</h3>
-          <div class="choosen">✋</div>
+          <div class="choosen" id="player-display">✋</div>
         </div>
       </div>
     </header>
