@@ -4,42 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock, Paper, Scissors game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/style.css">
   </head>
   <body>
     
     <!-- header section -->
-      <header>
-      <div class="header"></div>
-        <p>&copy; 2024 <a href="#">Cyrus Maundu</a></p>
-      </div>
-      <div class="computer-left">
-        <p>Computer</p>
-        <p>Player</p>
-      </div>
-      </header>
+     <div class="parent">
+      <header class="main-header">
+      <div class="header-content">
+        <p class="copyright">&copy; 2024 <a href="#">Cyrus Maundu</a></p>
+        <div class="score-bar">
+          <span>Computer <span class="score-value">0</span></span>
+          <span>0 <span class="score-value">Player</span></span>
+        </div>
+      </div>  
+     
 
-      <div class="computer-center">
-        <h3>Computer</h3>
-        <div class="computer-dots">✊</div>
+      <div class="show-choice">
+        <div class="choice">
+          <h3>Computer</h3>
+          <div class="choosen">✊</div>
+        </div>
+        <div class="status">CURRENTLY DRAW</div>
+        <div class="choice">
+          <h3>Player</h3>
+          <div class="choosen">✋</div>
+        </div>
       </div>
+    </header>
 
-      <div class="player-wins">
-        <h1>PLAYER WINS</h1>
+        <!-- control buttons -->
+         <div class="control-btns">
+          <button class="btn"><span class="emoji">✊</span> <br> Rock</button>
+          <button class="btn"><span class="emoji">✋</span> <br> Paper</button>
+          <button class="btn"><span class="emoji">✌️</span> <br> Scissors</button>
+         </div>
       </div>
-
-      <div class="player">
-        <h3>Player</h3>
-        <div class="player-dots">✋</div>
-      </div>
-
-      <section class="playing">
-        <div class="rock">✌️</div>
-        <div class="paper">✊</div>
-        <div class="scissors">✋</div>
-      </section>
-    
-    
     <script src="./src/main.js"></script>
   </body>
 </html>
