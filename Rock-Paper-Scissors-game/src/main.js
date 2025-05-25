@@ -1,6 +1,3 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//     console.log('Hellow ');
-// });
 const computerDisplay = document.getElementById('computer-display');
 const playerDisplay = document.getElementById('player-display');
 const statusDisplay = document.getElementById('status-display');
@@ -52,6 +49,7 @@ buttons.forEach(button => {
     });
 });
 
-computerDisplay.textContent = choices.rock;
+
+computerDisplay.textContent = choices.paper;
 playerDisplay.textContent = choices.paper;
-statusDisplay.textContent = 'Choose your weapon!';
+statusDisplay.textContent = 'CURRENTLY DRAW!';
