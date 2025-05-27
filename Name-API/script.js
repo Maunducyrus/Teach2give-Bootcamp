@@ -17,7 +17,7 @@ buttonBtn.textContent = `Loading...`
 buttonBtn.disabled = true;
 
 try {
-    const response = await fetch("https://api.nationalize.io/?name=${name}");
+    const response = await fetch(`https://api.nationalize.io/?name=${name}`);
     const result = await response.json();
 
     inputName.value = "";
@@ -25,7 +25,9 @@ try {
     if (result.country && result.country.length > 0) {
         const top = result.country[0];
         const percent = top.probability * 100;
-        showResult.textContent = `${name} is ${top.country_id} with ${percent}% certainty`;
+        const fullCountryName = getCountryName.of(top.country_id);
+        const roundedpercent = Math.round(percent);
+        showResult.textContent = `${name} is ${fullCountryName} with ${roundedpercent}% certainty`;
     } else {
         showResult.textContent = `${name} is not found in any country`
     }
