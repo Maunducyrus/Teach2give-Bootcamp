@@ -189,3 +189,7 @@ Sets - represent collection of unique values
  - onkeyup
  - onloaad
  - onfocus
+ 
+ DOM Event Listener Method
+ 
+ Event propagation - refers to the ways events flow 
