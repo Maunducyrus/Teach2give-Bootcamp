@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+    <title>The Cats App</title>
+  </head>
+  <body>
+    <header class="header-1">
+      <h1 class="heading">The Cats App</h1>
+      <form action="" class="main-form">
+        <div class="container">
+          <label for="cats" class="form-label">number of cats facts (50 maximum)</label>
+          <div class="controls">
+            <input type="number" name="cats" id="cats" class="form-input" placeholder="number of cats facts">
+            <button id="form-btn">Submit</button>
+          </div>
+        </div>
+<!-- Cats images section -->
+         <div class="container">
+          <label for="catphotos" class="form-label">number of cats photos (10 max)</label>
+          <div class="controls">
+            <input type="number" id="catphotos" class="form-input" placeholder="number of cats photos (10 max)">
+            <button id="cats-photos-btn">Submit</button>
+          </div>
+        </div>
+      </form>
+    </header>
+
+    <div class="display-images" id="display-images">
+      <div class="loading" id="loading"></div>
+      <ul class="list" id="list"></ul>
+      <div class="images" id="images"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
