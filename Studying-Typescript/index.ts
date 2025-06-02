@@ -17,7 +17,57 @@ console.log(isMale);
 // myVar = 55;
 // myVar = "str"
 
-let mayVar: any = 55;
-mayVar = "Heiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiillo there"
-myVar = true
-mayVar uns
+// let mayVar: any = 55;
+// mayVar = "Hello there"
+// myVar = true
+// mayVar = undefined
+// myVar = [3. 4, 5]
+// myVar = {}
+
+// TS interfaces
+// interface Student {
+//     firstName: string
+//     lastName: string
+//     age?: number
+//     readonly course: string // means the course can't be changed
+// }
+// interface ClassRep extends Student{
+//     designation: string
+//     retirementYear: number
+// }
+
+// let cyrus: Student = {
+//     firstName: "John",
+//     lastName: "Kioko",
+//     age: 30,
+//     course: "BBIT"
+// }
+
+// const joshua: ClassRep = {
+//     firstName: "Ben",
+//     lastName: "Msk",
+//     age: 34,
+//     course: "CS",
+//     designation: "Class of 2025",
+//     retirementYear: 2026
+// }
+// console.log(cyrus)
+// console.log(joshua)
+
+class Student {
+    firstName: string
+    lastName: string
+    age: number
+
+    constructor (firstName: string, lastName: string, age: number){
+        this.firstName = firstName
+        this.lastName = lastName
+        this.age = age
+    }
+}
+
+const cyrus = new Student("Cyrus", "Maundu", 28)
+console.log(cyrus)
+
+// const ages: (number | string | boolean)[] = [45,, 55, 80, 20]
+// console.log(ages)
