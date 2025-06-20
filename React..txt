@@ -1,0 +1,64 @@
+Handling Events in React
+Event - is anything a user does, clicking a button, typing input etc
+
+Event Handler - any function that is executed when an event is clicked.
+
+naming event handler - eg handleSayHello.
+
+ev/e - event
+
+State
+data that your component tracks and reacts to. 
+
+props - external data (from parents)
+state - internal data (owned by the component)
+
+Tools for states:-
+- useSate hook
+- useReducer hook
+- Context API
+- External tools like Redux, Zustand etc
+
+useState hook - function that takes in one parameter and returns it's own array with exactly two items 
+
+
+- Add a new state vriable (using the useState hook)
+- Use a state variable in your code (JSX)
+- Update the piece of sate in some event handle
+
+import {useState} from 'react
+
+function App() from 'react'
+
+function App() {
+const [count, seCount] = seStta
+
+NB
+Dn't Update State Directly.
+Don't Use Sate Outside of Components or Hooks
+State updates are Async
+
+Lazy State Initialization
+let's you delay the computation of the init delay
+
+Derived States
+a piece of data that is 
+
+
+Controlled Elements
+is an input element like input, textarea or select that their value is controlled by react state
+
+shopping list
+function ShoppingList ({item, quantity, unitPrice, total}) {
+return (
+<div>
+
+</div>
+)
+}
+
+<form>
+<input type="text" placeholder="item" /> 
+<input type="text" placeholder="item" />
+<input type="text" placeholder="item" />
+</form>
